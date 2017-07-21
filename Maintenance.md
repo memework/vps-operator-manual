@@ -31,6 +31,47 @@ the commands descibred here to check if they actually worked or not.
    - Don't even think on stopping them, seriously.
    - `sshd`, `postgres`, `mongodb`, `redis`, `netdata`, `ntpd`
 
+## Using `PM2`
+
+pm2 is a process manager ment for node based applications, but it can be used very easily for python, or even shell scripts.
+
+ - start a script 
+   - `pm2 start script.py`
+ - setup your user's pm2 to start at boot
+   - `pm2 startup`
+ - save your current processes to start at startup
+   - `pm2 save`
+  
+you can also create ecosystem files to better control your scripts. 
+here is an example config used to run a program in a virtual environment
+```
+module.exports = {
+  /**
+   * Application configuration section
+   * http://pm2.keymetrics.io/docs/usage/application-declaration/
+   */
+  apps : [
+
+    // First application
+    {
+      name      : 'memework-status',
+      script    : 'memework-status.py',
+      interpreter: 'python3.6',
+      interpreter_args: '-u'
+    },
+    {
+      name  : 'dog',
+      script : 'bot.py',
+      interpreter: '/home/pi/shibe-bot/env/bin/python3',
+      cwd : '/home/pi/shibe-bot/'
+    }
+  ]
+}
+```
+remember to read [the documentation](http://pm2.keymetrics.io/docs/usage/application-declaration/)
+for more information.
+
+
 ## Backuping
 
  - Signal heating to backup from time to time
