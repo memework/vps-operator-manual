@@ -5,5 +5,6 @@ This guide includes:
   - Creating a user
   - Putting your site into the Caddy server
   - and more! 
+  
 So... you should probably start reading the rest of this and learn how to handle things now. Enjoy! 
-- S Stewart (@tilda on GitHub).
+*Written by S Stewart (@tilda on GitHub).*
