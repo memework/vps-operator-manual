@@ -18,9 +18,14 @@ new user's username.
  - Adding a SSH Key to the new user
    - It starts with `ssh-rsa` and then a lot of random letters,
     It finishes with an identification for the key(usually an email, but can be anything)
- ```bash
- # TODO: Know if the authorized_keys2 thing is still valid
- ```
+
+   - If it starts with `-----BEGIN RSA PRIVATE KEY-----` **YOU SHOULDN'T DO ANYTHING WITH IT**, signal the
+    sender that they leaked their private key and the best course of action is to generate a new one
+
+   - Adding public key:
+   ```bash
+   sudo -Hu USERNAME nano ~/.ssh/authorized_keys
+   ```
 
 ## Creating [Gogs](https://git.memework.org/) users
 
