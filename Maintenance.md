@@ -13,17 +13,19 @@ Maintenance
 
 ## Using `systemctl`
 
-Don't forget to do `sudo systemctl status SERVICE.service` after doing
+Don't forget to do `sudo systemctl status SERVICE` after doing
 the commands descibred here to check if they actually worked or not.
 
+[Writing unit files for systemd](https://wiki.archlinux.org/index.php/Systemd#Writing_unit_files)
+
  - Enable a service to start on boot
-   - `sudo systemctl enable SERVICE.service`
+   - `sudo systemctl enable SERVICE`
  - Start a service
-   - `sudo systemctl start SERVICE.service`
+   - `sudo systemctl start SERVICE`
  - Stop a service
-   - `sudo systemctl stop SERVICE.service`
+   - `sudo systemctl stop SERVICE`
  - Restart a service
-   - `sudo systemctl restart SERVICE.service`
+   - `sudo systemctl restart SERVICE`
 
  - **Important services to check status on**
    - Don't even think on stopping them, seriously.
