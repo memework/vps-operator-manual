@@ -9,12 +9,13 @@ but others don't (usually services through `pm2`):
    - `netdata`
  - Services that **require** manual intervention
    - `caddy`
-     - `sudo pm2 start caddy -- -conf /etc/caddy/Caddyfile -agree`
+     - Runs on root, this is expected.
+     ```bash
+     sudo pm2 start caddy -- -conf /etc/caddy/Caddyfile -agree
+     ```
+
    - `gogs`
      ```bash
-     sudo -iu git
-     tmux # or tmux a
-     cd gogs
-     ./gogs web
+     sudo -u git pm2 start ~/gogs/gogs -- web
      ```
 
