@@ -1,16 +1,20 @@
-# Intro/Preface
-Hi, fellow human! This is the documentation for how to handle operations on our VPS/server. 
+# Memework VPS Operator Manual
+Welcome! This is the manual in which we remind ourself on how to not
+break out little server.
 
-This may be useful for non-VPS users but this is mostly geared torwards our own. 
+This may be useful for any other human being but this was made for us.
 
 This guide includes: 
 
-  - Creating a user
+ - Creating a user
+ - Backuping shit so we don't have so much data loss
+ - Having fun in a *very unstable* server running Arch Linux
+ - Putting your personal shit into nginx
   
- - Putting your site into the Caddy server
-  
-  - and more! 
-  
-So... you should probably start reading the rest of this and learn how to handle things now. Enjoy! 
+You can start on whichever topic you want to see. Enjoy!
 
-*Written by S Stewart (@tilda on GitHub).*
+## Written by
+ - [Luna Mendes](https://github.com/lnmds)
+ - [S Stewart](https://github.com/tilda)
+ - [Alex](https://github.com/mralext20)
+
