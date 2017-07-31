@@ -76,6 +76,10 @@ for more information.
 
  - Signal heating to backup from time to time
  - Do backups of your home folder to your computer from time to time(`scp` does the job)
- - Dumping Gogs database
-   - `pg_dump -u postgres gogs > gogs_dump`
+ - Backup Postgres
+   - `sudo -u postgres pg_dumpall > postgres.dump`
+   - Remember to send the backup to your computer: `scp meme:~/postgres.dump ~`
+ - Backup Mongo
+   - `cd ~ && mongodump`
+   - `scp meme:dump ~/sexhouse-mongo-dump`
 
