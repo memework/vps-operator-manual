@@ -24,7 +24,7 @@ new user's username.
 
    - Adding public key:
    ```bash
-   sudo -Hu USERNAME nano ~/.ssh/authorized_keys
+   sudo -Hu USERNAME nano /home/USERNAME/.ssh/authorized_keys
    ```
 
 ## Creating [Gogs](https://git.memework.org/) users
