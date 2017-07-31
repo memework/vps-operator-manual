@@ -18,7 +18,6 @@ Guidelines to backup the stuff we have
    - Enter VPS:
      - `sudo systemctl enable postgres && sudo systemctl start postgres`
      - `sudo -u postgres initdb --locale en_US.UTF-8 -D '/var/lib/postgres/data'`
-     - `cp postgres.dump /var/lib/postgres/data`
      - `sudo -u postgres psql -f postgres.dump postgres`
      - You should see a lot of SQL commands, like `ALTER TABLE` or whatever
    - Done!
