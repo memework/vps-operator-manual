@@ -1,6 +1,6 @@
 # Memework VPS Operator Manual
-Welcome! This is the manual in which we remind ourself on how to not
-break out little server.
+
+Welcome! This is the manual in which we remind ourselves on how to not break our little server.
 
 This may be useful for any other human being but this was made for us.
 
