@@ -71,15 +71,3 @@ module.exports = {
 remember to read [the documentation](http://pm2.keymetrics.io/docs/usage/application-declaration/)
 for more information.
 
-
-## Backuping
-
- - Signal heating to backup from time to time
- - Do backups of your home folder to your computer from time to time(`scp` does the job)
- - Backup Postgres
-   - `sudo -u postgres pg_dumpall > postgres.dump`
-   - Remember to send the backup to your computer: `scp meme:~/postgres.dump ~`
- - Backup Mongo
-   - `cd ~ && mongodump`
-   - `scp meme:dump ~/sexhouse-mongo-dump`
-
