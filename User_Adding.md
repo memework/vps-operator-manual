@@ -30,4 +30,4 @@ new user's username.
 ## Creating [Gogs](https://git.memework.org/) users
 
 **TODO**: Add gogs user creation through admin panel
-
+**TODO**: Add manually createing gogs user and making admin via postgres commands
