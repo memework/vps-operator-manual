@@ -1,4 +1,4 @@
-PS Operator's Manual
+VPS Operator's Manual
 ======================
 
 ## Contents
