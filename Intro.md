@@ -7,7 +7,7 @@ This may be useful for any other human being but this was made for us.
 This guide includes: 
 
  - Creating a user
- - Backuping shit so we don't have so much data loss
+ - Doing backups for shit so we don't have so much data loss
  - Having fun in a *very unstable* server running Arch Linux
  - Putting your personal shit into nginx
   
