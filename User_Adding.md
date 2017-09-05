@@ -1,6 +1,20 @@
 Adding new users to the VPS
 ==============================
 
+## Creating using `newuser` script
+
+It is preferred to use the `newuser` script because it already
+sets SSH keys to the newly created user, plus setting the `wheel` group.
+
+```bash
+sudo newuser USERNAME USER_PUBLIC_KEY
+```
+
+Example:
+```bash
+sudo newuser someone ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDVipc3adl9cWZvn8ubagnhmVipgMW3MtC2cU3BSMzyHGFbIViC+strdR6UaLPaV7lzPyxKfrCOr4BFPeWden41nCCuCYwOWoEejhrgML4dHUUMf4BPZNWFaAvNagpcofj2zjiyaPK0ikf7yAJjT+mnQGyW7cj96T/x26y35kA2gmur91EQ6Bv2pTDscHpdSQl01Effi9JrDRXMR6fQHL4I3ZOu3hi1Ca2iX8ErzsbjGK1zIuYxC8knHpKjM9OC7r01TNUCukI1ryRS9b+UCVd0HWFm5GekLTuB6ouI0r6WfsY3AWm2aoUxYyVFwlFDXeBvXjrLHTksSsWr4bRhq9XmCLW4BWjAvpiX6RKbrH/jeUK7CTQ9iEMMf+H8VLA8hVx4Oo5ie8fWO+cNSFh8UEoaRRwVlp1f60h8S0KTw8wScohHZMH38x035hlRYWdQWosIr513VgLMRQ/8zoyEtuwwwsa7NG+j5wsOrtUxZl0qoN+sGfRSE8JWiBBYAntKOGbsZTn0Sw4t2J4dqWasdNM7Bwgt1M9TsFmDq9rSI/TzeQMNapWJc2YchsO+Icqn9tHmx6CNtHj3vLAfo6QnZnaDVRX/o+NcSqhSFDjMCBVx9S1mBvhKPMBzMpcSqjMX5Jr9An55tibstb+AsV8+8+cdZIPZKRsN2HJJ9dJ3sAm1PQ== alexterry43@gmail.com
+```
+
 ## Creating UNIX users
 
 `USERNAME` here is to be switched by the
