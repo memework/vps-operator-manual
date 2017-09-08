@@ -1,6 +1,9 @@
 Maintenance
 =============
 
+ - Read [ArchWiki's page on Maintenance](https://wiki.archlinux.org/index.php/System_maintenance) to have a good idea on
+ what to do.
+
  - Read [Arch Linux News](https://www.archlinux.org/news/) before doing any
   system upgrade.
  - `sudo pacman -Syu`
@@ -68,6 +71,7 @@ module.exports = {
   ]
 }
 ```
-remember to read [the documentation](http://pm2.keymetrics.io/docs/usage/application-declaration/)
-for more information.
+
+**Read [the documentation](http://pm2.keymetrics.io/docs/usage/application-declaration/)
+for more information.**
 
