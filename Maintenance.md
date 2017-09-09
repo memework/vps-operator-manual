@@ -6,13 +6,15 @@ Maintenance
 
  - Read [Arch Linux News](https://www.archlinux.org/news/) before doing any
   system upgrade.
- - `sudo pacman -Syu`
+ - `pacaur -Syu`
    - Signal on `#vps` before doing the upgrade, and wait for another member
    to give you the good sign to upgrade
    - If any error happens, *stay calm* and wait until a more experienced member(no one)
    to come and help you
    - **DO NOT DO `sudo pacman --force -Syu`!**
+   - **DO NOT DO `pacaur --force -Syu`!**
    - **DO NOT DO `sudo pacman -Sy`!**
+   - **DO NOT DO `pacaur -Sy`!**
 
 ## Using `systemctl`
 
