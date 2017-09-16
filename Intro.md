@@ -18,3 +18,6 @@ You can start on whichever topic you want to see. Enjoy!
  - [S Stewart](https://github.com/tilda)
  - [Alex](https://github.com/mralext20)
 
+
+*made with :heart: by memeworkers*
+

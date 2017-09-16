@@ -1,4 +1,6 @@
 # Put this unit at /etc/systemd/system lol
+# NOTE: This unit is obsolete, we are using GitLab.
+# This is for historic purposes -Luna.
 
 [Unit]
 Description=A painless self-hosted Git service.
